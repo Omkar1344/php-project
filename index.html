@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://localhost/Voting-Management-system/ -->
+<html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Voting System</title>
+ 	
+
+<meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  
+
+  <!-- Google Fonts -->
+  <style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}</style><link href="./index_files/css" rel="stylesheet">
+    <link rel="stylesheet" href="./index_files/all.min.css">
+
+
+  <!-- Vendor CSS Files -->
+  <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./index_files/icofont.min.css" rel="stylesheet">
+  <link href="./index_files/boxicons.min.css" rel="stylesheet">
+  <link href="./index_files/venobox.css" rel="stylesheet">
+  <link href="./index_files/animate.min.css" rel="stylesheet">
+  <link href="./index_files/remixicon.css" rel="stylesheet">
+  <link href="./index_files/owl.carousel.min.css" rel="stylesheet">
+  <link href="./index_files/bootstrap-datepicker.min.css" rel="stylesheet">
+  <link href="./index_files/datatables.min.css" rel="stylesheet">
+
+
+  <!-- Template Main CSS File -->
+  <link href="./index_files/style.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="./index_files/jquery-te-1.4.0.css">
+  
+  <script src="./index_files/jquery.min.js.download"></script>
+  <script src="./index_files/datatables.min.js.download"></script>
+  <script src="./index_files/bootstrap.bundle.min.js.download"></script>
+  <script src="./index_files/jquery.easing.min.js.download"></script>
+  <script src="./index_files/validate.js.download"></script>
+  <script src="./index_files/venobox.min.js.download"></script>
+  <script src="./index_files/jquery.waypoints.min.js.download"></script>
+  <script src="./index_files/counterup.min.js.download"></script>
+  <script src="./index_files/owl.carousel.min.js.download"></script>
+  <script src="./index_files/bootstrap-datepicker.min.js.download"></script>
+    <script type="text/javascript" src="./index_files/all.min.js.download"></script>
+  <script type="text/javascript" src="./index_files/jquery-te-1.4.0.min.js.download" charset="utf-8"></script>
+
+
+
+
+<style>
+	body{
+        background: #80808045;
+  }
+</style></head>
+
+
+<body cz-shortcut-listen="true">
+	<style>
+	.logo {
+    margin: auto;
+    font-size: 20px;
+    background: white;
+    padding: 5px 11px;
+    border-radius: 50% 50%;
+    color: #000000b3;
+}
+</style>
+
+<nav class="navbar navbar-dark bg-dark fixed-top " style="padding:0;">
+  <div class="container-fluid mt-2 mb-2">
+  	<div class="col-lg-12">
+  		<div class="col-md-1 float-left" style="display: flex;">
+  			<div class="logo">
+  				<svg class="svg-inline--fa fa-poll-h fa-w-14" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="poll-h" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448 432V80c0-26.5-21.5-48-48-48H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48zM112 192c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h128c8.84 0 16 7.16 16 16v32c0 8.84-7.16 16-16 16H112zm0 96c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h224c8.84 0 16 7.16 16 16v32c0 8.84-7.16 16-16 16H112zm0 96c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h64c8.84 0 16 7.16 16 16v32c0 8.84-7.16 16-16 16h-64z"></path></svg><!-- <i class="fa fa-poll-h"></i> -->
+  			</div>
+  		</div>
+	  	<div class="col-md-2 float-right text-white">
+	  		<a href="http://localhost/Voting-Management-system/ajax.php?action=logout" class="text-white">Administrator <svg class="svg-inline--fa fa-power-off fa-w-16" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="power-off" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M400 54.1c63 45 104 118.6 104 201.9 0 136.8-110.8 247.7-247.5 248C120 504.3 8.2 393 8 256.4 7.9 173.1 48.9 99.3 111.8 54.2c11.7-8.3 28-4.8 35 7.7L162.6 90c5.9 10.5 3.1 23.8-6.6 31-41.5 30.8-68 79.6-68 134.9-.1 92.3 74.5 168.1 168 168.1 91.6 0 168.6-74.2 168-169.1-.3-51.8-24.7-101.8-68.1-134-9.7-7.2-12.4-20.5-6.5-30.9l15.8-28.1c7-12.4 23.2-16.1 34.8-7.8zM296 264V24c0-13.3-10.7-24-24-24h-32c-13.3 0-24 10.7-24 24v240c0 13.3 10.7 24 24 24h32c13.3 0 24-10.7 24-24z"></path></svg><!-- <i class="fa fa-power-off"></i> --></a>
+	    </div>
+    </div>
+  </div>
+  
+</nav>	
+<style>
+	
+</style>
+
+<nav id="sidebar" class="mx-lt-5 bg-dark">
+		
+		<div class="sidebar-list">
+
+				<a href="http://localhost/Voting-Management-system/index.php?page=home" class="nav-item nav-home"><span class="icon-field"><svg class="svg-inline--fa fa-home fa-w-18" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="home" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"></path></svg><!-- <i class="fa fa-home"></i> --></span> Home</a>
+				<a href="http://localhost/Voting-Management-system/index.php?page=categories" class="nav-item nav-categories"><span class="icon-field"><svg class="svg-inline--fa fa-list fa-w-16" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="list" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M80 368H16a16 16 0 0 0-16 16v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16v-64a16 16 0 0 0-16-16zm0-320H16A16 16 0 0 0 0 64v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16V64a16 16 0 0 0-16-16zm0 160H16a16 16 0 0 0-16 16v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16v-64a16 16 0 0 0-16-16zm416 176H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-320H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16zm0 160H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z"></path></svg><!-- <i class="fa fa-list"></i> --></span> Category List</a>
+				<a href="http://localhost/Voting-Management-system/index.php?page=voting_list" class="nav-item nav-voting_list nav-manage_voting"><span class="icon-field"><svg class="svg-inline--fa fa-poll-h fa-w-14" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="poll-h" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448 432V80c0-26.5-21.5-48-48-48H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48zM112 192c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h128c8.84 0 16 7.16 16 16v32c0 8.84-7.16 16-16 16H112zm0 96c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h224c8.84 0 16 7.16 16 16v32c0 8.84-7.16 16-16 16H112zm0 96c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h64c8.84 0 16 7.16 16 16v32c0 8.84-7.16 16-16 16h-64z"></path></svg><!-- <i class="fa fa-poll-h"></i> --></span> Voting List</a>
+								<a href="http://localhost/Voting-Management-system/index.php?page=users" class="nav-item nav-users"><span class="icon-field"><svg class="svg-inline--fa fa-users fa-w-20" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"></path></svg><!-- <i class="fa fa-users"></i> --></span> Users</a>
+					</div>
+
+</nav>
+<script>
+	$('.nav-').addClass('active')
+</script>  <div class="toast" id="alert_toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body text-white">
+    </div>
+  </div>
+  <main id="view-panel">
+        	<style>
+	.custom-menu {
+        z-index: 1000;
+	    position: absolute;
+	    background-color: #ffffff;
+	    border: 1px solid #0000001c;
+	    border-radius: 5px;
+	    padding: 8px;
+	    min-width: 13vw;
+}
+a.custom-menu-list {
+    width: 100%;
+    display: flex;
+    color: #4c4b4b;
+    font-weight: 600;
+    font-size: 1em;
+    padding: 1px 11px;
+}
+	span.card-icon {
+    position: absolute;
+    font-size: 3em;
+    bottom: .2em;
+    color: #ffffff80;
+}
+.file-item{
+	cursor: pointer;
+}
+a.custom-menu-list:hover,.file-item:hover,.file-item.active {
+    background: #80808024;
+}
+table th,td{
+	/*border-left:1px solid gray;*/
+}
+a.custom-menu-list span.icon{
+		width:1em;
+		margin-right: 5px
+}
+.candidate {
+    margin: auto;
+    width: 23vw;
+    padding: 0 10px;
+    border-radius: 20px;
+    margin-bottom: 1em;
+    display: flex;
+    border: 3px solid #00000008;
+    background: #8080801a;
+
+}
+.candidate_name {
+    margin: 8px;
+    margin-left: 3.4em;
+    margin-right: 3em;
+    width: 100%;
+}
+	.img-field {
+	    display: flex;
+	    height: 8vh;
+	    width: 4.3vw;
+	    padding: .3em;
+	    background: #80808047;
+	    border-radius: 50%;
+	    position: absolute;
+	    left: -.7em;
+	    top: -.7em;
+	}
+	
+	.candidate img {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border-radius: 50%;
+}
+.vote-field {
+    position: absolute;
+    right: 0;
+    bottom: -.4em;
+}
+</style>
+
+<div class="containe-fluid">
+		<div class="row">
+		<div class="col-lg-12">
+			<div class="card col-md-4 offset-2 bg-info float-left">
+				<div class="card-body text-white">
+					<h4><b>Voters</b></h4>
+					<hr>
+					<span class="card-icon"><svg class="svg-inline--fa fa-users fa-w-20" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"></path></svg><!-- <i class="fa fa-users"></i> --></span>
+					<h3 class="text-right"><b>5</b></h3>
+				</div>
+			</div>
+			<div class="card col-md-4 offset-2 bg-primary ml-4 float-left">
+				<div class="card-body text-white">
+					<h4><b>Voted</b></h4>
+					<hr>
+					<span class="card-icon"><svg class="svg-inline--fa fa-user-tie fa-w-14" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm95.8 32.6L272 480l-32-136 32-56h-96l32 56-32 136-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z"></path></svg><!-- <i class="fa fa-user-tie"></i> --></span>
+					<h3 class="text-right"><b>0</b></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row mt-3 ml-3 mr-3">
+			<div class="col-lg-12">
+			<div class="card">
+				<div class="card-body">
+					<div class="text-center">
+						<h3><b>Club or Society Election</b></h3>
+						<small><b>Go Vote For Right Candidate</b></small>	
+					</div>
+											<hr>
+						<div class="row mb-4">
+							<div class="col-md-12">
+									<div class="text-center">
+										<h3><b>Club President</b></h3>
+									</div>
+							</div>
+						</div>
+						<div class="row mt-3">
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731156300_05403e8d2dabb90c77153f7dc9df421c.jpg" alt="">
+								</div>
+								<div class="candidate_name">Aarav Sharma</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731156300_4717ccfd25ea80cb1ae1bc0561b9472d.jpg" alt="">
+								</div>
+								<div class="candidate_name">Rohan Gupta</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731156300_09957834ac22964a6ae2e00eea371818.jpg" alt="">
+								</div>
+								<div class="candidate_name">Meera Desai</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+												</div>
+											<hr>
+						<div class="row mb-4">
+							<div class="col-md-12">
+									<div class="text-center">
+										<h3><b>Vice President</b></h3>
+									</div>
+							</div>
+						</div>
+						<div class="row mt-3">
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731156480_e4da1716140158405b1387a3bd3859a2.jpg" alt="">
+								</div>
+								<div class="candidate_name">Kavya Nair</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731156480_3854a8e825bc816e7d7c2caa2c255460.jpg" alt="">
+								</div>
+								<div class="candidate_name">Siddharth Bansal</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731156540_6e1789022af826ad26b466aa4cca41ce.jpg" alt="">
+								</div>
+								<div class="candidate_name">Riya Kapoor</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+												</div>
+											<hr>
+						<div class="row mb-4">
+							<div class="col-md-12">
+									<div class="text-center">
+										<h3><b>Secretary</b></h3>
+									</div>
+							</div>
+						</div>
+						<div class="row mt-3">
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731156660_vihan mehta.jpg" alt="">
+								</div>
+								<div class="candidate_name">Vihaan Mehta</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731156660_tanvi jain.jpg" alt="">
+								</div>
+								<div class="candidate_name">Tanvi Jain</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731156720_fb24f0981bee6a40152b53f72e1d9c50.jpg" alt="">
+								</div>
+								<div class="candidate_name">Harsh Patel</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+												</div>
+											<hr>
+						<div class="row mb-4">
+							<div class="col-md-12">
+									<div class="text-center">
+										<h3><b>Treasurer</b></h3>
+									</div>
+							</div>
+						</div>
+						<div class="row mt-3">
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731156960_67191531e470af059f1c287844c8b38f.jpg" alt="">
+								</div>
+								<div class="candidate_name">Aanya Patel</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731156900_66716d55e45811b6b37e819e7b71959e.jpg" alt="">
+								</div>
+								<div class="candidate_name">Mohit Chandra</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731156960_b92488a6d184c618d8102da1550dc210.jpg" alt="">
+								</div>
+								<div class="candidate_name">Anika Singh</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+												</div>
+											<hr>
+						<div class="row mb-4">
+							<div class="col-md-12">
+									<div class="text-center">
+										<h3><b>Event Coordinator</b></h3>
+									</div>
+							</div>
+						</div>
+						<div class="row mt-3">
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731157080_rohan gupta.jpg" alt="">
+								</div>
+								<div class="candidate_name">Rohan Gupta</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731157140_sanjay nair.jpg" alt="">
+								</div>
+								<div class="candidate_name">Sanjay Nair</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+													<div class="candidate" style="position: relative;">
+								<div class="img-field">
+									<img src="./index_files/1731157260_priya iyer.jpg" alt="">
+								</div>
+								<div class="candidate_name">Priya Iyer</div>
+								<div class="vote-field">
+									<span class="badge badge-success"><large><b>0</b></large></span>
+								</div>
+							</div>
+												</div>
+										
+				</div>
+			</div>
+			
+		</div>
+		</div>
+	</div>
+
+
+<script>
+	
+</script>  	
+
+  </main>
+
+  
+  <a href="http://localhost/Voting-Management-system/#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+<div class="modal fade" id="confirm_modal" role="dialog">
+    <div class="modal-dialog modal-md" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title">Confirmation</h5>
+      </div>
+      <div class="modal-body">
+        <div id="delete_content"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="confirm" onclick="">Continue</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="uni_modal" role="dialog">
+    <div class="modal-dialog modal-md" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title"></h5>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="submit" onclick="$(&#39;#uni_modal form&#39;).submit()">Save</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+      </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+	 window.start_load = function(){
+    $('body').prepend('<di id="preloader2"></di>')
+  }
+  window.end_load = function(){
+    $('#preloader2').fadeOut('fast', function() {
+        $(this).remove();
+      })
+  }
+
+  window.uni_modal = function($title = '' , $url=''){
+    start_load()
+    $.ajax({
+        url:$url,
+        error:err=>{
+            console.log()
+            alert("An error occured")
+        },
+        success:function(resp){
+            if(resp){
+                $('#uni_modal .modal-title').html($title)
+                $('#uni_modal .modal-body').html(resp)
+                $('#uni_modal').modal('show')
+                end_load()
+            }
+        }
+    })
+}
+window._conf = function($msg='',$func='',$params = []){
+     $('#confirm_modal #confirm').attr('onclick',$func+"("+$params.join(',')+")")
+     $('#confirm_modal .modal-body').html($msg)
+     $('#confirm_modal').modal('show')
+  }
+   window.alert_toast= function($msg = 'TEST',$bg = 'success'){
+      $('#alert_toast').removeClass('bg-success')
+      $('#alert_toast').removeClass('bg-danger')
+      $('#alert_toast').removeClass('bg-info')
+      $('#alert_toast').removeClass('bg-warning')
+
+    if($bg == 'success')
+      $('#alert_toast').addClass('bg-success')
+    if($bg == 'danger')
+      $('#alert_toast').addClass('bg-danger')
+    if($bg == 'info')
+      $('#alert_toast').addClass('bg-info')
+    if($bg == 'warning')
+      $('#alert_toast').addClass('bg-warning')
+    $('#alert_toast .toast-body').html($msg)
+    $('#alert_toast').toast({delay:3000}).toast('show');
+  }
+  $(document).ready(function(){
+    $('#preloader').fadeOut('fast', function() {
+        $(this).remove();
+      })
+  })
+</script>	
+</body></html>
